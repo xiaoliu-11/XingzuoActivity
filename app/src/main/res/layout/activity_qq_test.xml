@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/text_gray"
+    tools:context=".xiaoceshi1.QqTestActivity">
+
+  <!--  <EditText
+        android:inputType="number"
+        android:id="@+id/et_QQ"
+        android:hint="输入一个QQ号码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+
+    <!--密码编辑框-->
+    <EditText
+        android:id="@+id/et_QQ"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:minHeight="30dp"
+        android:maxLength="20"
+        android:hint="请输入qq号"
+        android:textColorHint="#95A1AA"
+        android:textColor="@color/colorAccent"
+        android:textCursorDrawable="@drawable/edittext_cursor"
+        android:background="@drawable/edittext_selector"
+        android:inputType="number"
+        android:singleLine="true" />
+
+
+<!--
+    <Button
+        android:onClick="btn_QQStart"
+        android:text="QQ测吉凶"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+
+    <ImageView
+        android:onClick="btn_QQStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bagua"
+        />
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layout_radio2"
+        >
+    <TextView
+        android:text="数据来源于网络，仅供娱乐，客官们笑笑就好！"
+        android:id="@+id/tv_showQQtishi"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        android:layout_height="30dp"
+        />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layout_radio"
+        >
+
+
+    <TextView
+        android:text="凶吉结果:"
+        android:id="@+id/tv_showQQ_test"
+        android:padding="10dp"
+        android:textColor="@color/hei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_showQQ"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:text="凶吉分析:"
+            android:id="@+id/tv_showQQ3_test"
+            android:padding="10dp"
+            android:textColor="@color/hei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/tv_showQQ2"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</LinearLayout>

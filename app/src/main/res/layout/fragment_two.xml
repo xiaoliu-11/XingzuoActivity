@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_gray">
+
+
+    <com.example.xingzuoactivity.imagelunbo.Image3DSwitchView
+        android:id="@+id/image_switch_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" >
+
+        <com.example.xingzuoactivity.imagelunbo.Image3DView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/shizizuo" />
+
+        <com.example.xingzuoactivity.imagelunbo.Image3DView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/chunvzuo" />
+
+        <com.example.xingzuoactivity.imagelunbo.Image3DView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/tianxiezuo" />
+
+        <com.example.xingzuoactivity.imagelunbo.Image3DView
+            android:id="@+id/image4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/mojiezuo" />
+
+        <com.example.xingzuoactivity.imagelunbo.Image3DView
+            android:id="@+id/image5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/shuipingzuo" />
+
+        <com.example.xingzuoactivity.imagelunbo.Image3DView
+            android:id="@+id/image6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/shuangyuzuo" />
+
+        <com.example.xingzuoactivity.imagelunbo.Image3DView
+            android:id="@+id/image7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/shizizuo" />
+    </com.example.xingzuoactivity.imagelunbo.Image3DSwitchView>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layout_radio"
+        >
+
+        <ImageView
+            android:id="@+id/test_qq"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/qq" />
+
+        <ImageView
+            android:id="@+id/test_rili"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:src="@mipmap/rili" />
+        <ImageView
+            android:id="@+id/test_tianqi"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:src="@mipmap/tianqi" />
+        <ImageView
+            android:id="@+id/test_peidui"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:src="@mipmap/peidui" />
+
+
+
+
+        <TextView
+            android:id="@+id/editext_qq"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="QQ号测凶吉"
+            android:layout_marginLeft="-310dp"
+            android:layout_marginTop="40dp"
+            android:textSize="13sp"
+            android:textColor="@color/hei"
+
+            />
+
+        <TextView
+            android:id="@+id/editext_rili"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="老黄历"
+            android:textSize="13sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/hei"
+            />
+
+        <TextView
+            android:id="@+id/editext_tianqi"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="天气查询"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="13sp"
+            android:textColor="@color/hei"
+            />
+
+        <TextView
+            android:id="@+id/editext_peidu"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="星座配对"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="13sp"
+            android:textColor="@color/hei"
+            />
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layout_radio"
+        >
+
+        <ImageView
+            android:id="@+id/test_xiaohua"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/xiaohua" />
+
+        <ImageView
+            android:id="@+id/test_erweima"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:src="@mipmap/erweima" />
+        <ImageView
+            android:id="@+id/test_chengyu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:src="@mipmap/chengyu" />
+        <ImageView
+            android:id="@+id/test_shengxiao"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:src="@mipmap/shengxiao" />
+
+
+
+
+        <TextView
+            android:id="@+id/editext_xiaohua"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="笑话大全"
+            android:layout_marginLeft="-310dp"
+            android:layout_marginTop="40dp"
+            android:textSize="13sp"
+            android:textColor="@color/hei"
+
+            />
+
+        <TextView
+            android:id="@+id/editext_erweima"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="趣味二维码"
+            android:textSize="13sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/hei"
+            />
+
+        <TextView
+            android:id="@+id/editext_chengyu"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="成语大全"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="13sp"
+            android:textColor="@color/hei"
+            />
+
+        <TextView
+            android:id="@+id/editext_shengxiao"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="生肖配对"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="13sp"
+            android:textColor="@color/hei"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

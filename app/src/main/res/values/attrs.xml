@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable  name="inputview">
+        <!--图片-->
+        <attr name="input_icon" format="reference"></attr>
+        <!--字体-->
+        <attr name="input_hint" format="string"></attr>
+
+        <!--得到的值-->
+        <attr name="input_textzhi" format="string"></attr>
+
+        <!--是否密文-->
+        <attr name="is_pass" format="boolean"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable  name="nav">
+        <!--图片-->
+        <attr name="icon" format="reference"></attr>
+        <!--字体-->
+        <attr name="hint" format="string"></attr>
+        <!--值-->
+        <attr name="textzhi" format="string"></attr>
+        <!--是否密文-->
+        <attr name="pass" format="boolean"></attr>
+        <attr name="right_icon" format="reference"></attr>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text_gray">#EEEEEE</color>
+    <color name="transparent">#FFFFFF</color>
+    <color name="zi">#9955FF</color>
+    <color name="hui">#DDDDDD</color>
+    <color name="hei">#000000</color>
+    <color name="huang">#FFEE99</color>
+    <color name="shenhuang">#FFDD55</color>
+    <color name="hong">#FF0000</color>
+    <color name="lu">#00FF00</color>
+    <color name="az">#FFFF00</color>
+</resources>

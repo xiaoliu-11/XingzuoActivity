@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bj_111">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layout_radio"
+        >
+
+
+        <TextView
+            android:id="@+id/editext_shengxiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="❤我的愿望清单❤"
+            android:textSize="20sp"
+            android:paddingLeft="85dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/hei"
+            />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/add_yuanwang"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+       android:layout_marginLeft="340dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/zengjiayuanwang"
+        />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layout_radio1"
+        >
+
+
+
+
+        <ListView
+            android:id="@+id/listView_cloud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+
+
+
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/test_ev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自己许了愿，就要努力实现！"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/san_image"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-10dp"
+        />
+
+
+</LinearLayout>

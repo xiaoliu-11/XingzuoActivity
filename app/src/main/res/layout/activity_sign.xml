@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/hui"
+    tools:context=".SignActivity">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/layout_radio"
+        >
+
+
+        <TextView
+            android:id="@+id/editext_shengxiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="壁纸下载"
+            android:textSize="20sp"
+            android:layout_marginLeft="150dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/hei"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="670dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="2dp"
+        android:background="@drawable/layout_radio"
+        >
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:padding="2dp"
+            android:background="@drawable/layout_radio"
+            >
+
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="2dp"
+                android:layout_marginLeft="9dp"
+                android:src="@drawable/shizizuo"
+                android:id="@+id/img1tupian"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="4dp"
+                android:src="@drawable/chunvzuo"
+                android:id="@+id/img2tupian"
+                />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="4dp"
+                android:src="@drawable/jinniuzuo"
+                android:id="@+id/img3tupian"
+                />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="105dp"
+                android:layout_marginLeft="-300dp"
+                android:padding="2dp"
+                android:background="@drawable/layout_radio"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="狮子座"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginLeft="30dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="处女座"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginLeft="50dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="金牛座"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginLeft="60dp"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:padding="2dp"
+            android:background="@drawable/layout_radio"
+            >
+
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="2dp"
+                android:layout_marginLeft="9dp"
+                android:src="@drawable/juxiezuo"
+                android:id="@+id/img4tupian"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="4dp"
+                android:src="@drawable/mojiezuo"
+                android:id="@+id/img5tupian"
+                />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="4dp"
+                android:src="@drawable/sheshouzuo"
+                android:id="@+id/img6tupian"
+                />
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="105dp"
+                android:layout_marginLeft="-300dp"
+                android:padding="2dp"
+                android:background="@drawable/layout_radio"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="巨蟹座"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginLeft="30dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="魔羯座"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginLeft="50dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="射手座"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginLeft="60dp"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:padding="2dp"
+            android:background="@drawable/layout_radio"
+            >
+
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="2dp"
+                android:layout_marginLeft="9dp"
+                android:src="@drawable/shuangyuzuo"
+                android:id="@+id/img7tupian"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="4dp"
+                android:src="@drawable/shuangzizuo"
+                android:id="@+id/img8tupian"
+                />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="4dp"
+                android:src="@drawable/shuipingzuo"
+                android:id="@+id/img9tupian"
+                />
+
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="105dp"
+                android:layout_marginLeft="-300dp"
+                android:padding="2dp"
+                android:background="@drawable/layout_radio"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="双鱼座"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginLeft="30dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="双子座"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginLeft="50dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="水瓶座"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginLeft="60dp"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:padding="2dp"
+            android:background="@drawable/layout_radio"
+            >
+
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="2dp"
+                android:layout_marginLeft="9dp"
+                android:src="@drawable/tianpingzuo"
+                android:id="@+id/img10tupian"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="4dp"
+                android:src="@drawable/tianxiezuo"
+                android:id="@+id/img11tupian"
+                />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="4dp"
+                android:src="@drawable/baiynagzuo"
+                android:id="@+id/img12tupian"
+                />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="105dp"
+                android:layout_marginLeft="-300dp"
+                android:padding="2dp"
+                android:background="@drawable/layout_radio"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="天平座"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginLeft="30dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="天蝎座"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginLeft="50dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="白羊座"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginLeft="60dp"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

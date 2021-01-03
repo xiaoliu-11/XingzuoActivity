@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/hui"
+    tools:context=".xiaoceshi1.ChengyuActivity">
+
+   <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/layout_radio4"
+    >
+
+       <!--密码编辑框-->
+       <EditText
+           android:id="@+id/et_chengyu"
+           android:layout_width="200dp"
+           android:layout_height="40dp"
+           android:minHeight="30dp"
+           android:maxLength="20"
+           android:textColorHint="#95A1AA"
+           android:hint="请输入成语"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="5dp"
+           android:textColor="@color/colorAccent"
+           android:textCursorDrawable="@drawable/edittext_cursor"
+           android:background="@drawable/edittext_selector"
+           android:singleLine="true" />
+
+
+       <Button
+           android:onClick="btn_ChengyuStart"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_marginTop="6dp"
+           android:layout_marginLeft="70dp"
+           android:background="@drawable/btn_selector"
+           android:text="查询"
+
+           />
+
+
+       </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layout_radio4"
+        >
+
+
+        <TextView
+            android:text="拼音:"
+            android:id="@+id/tv_chengyu_test"
+            android:padding="10dp"
+            android:textColor="@color/hei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_show_chengyu_pinyin"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+        <TextView
+            android:text="成语解释:"
+            android:id="@+id/tv_jieshi_test"
+            android:padding="10dp"
+            android:textColor="@color/hei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_jieshi_test_show"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:text="成语来源:"
+            android:id="@+id/tv_laiyuan_test"
+            android:padding="10dp"
+            android:textColor="@color/hei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_laiyuan_test_show"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:text="使用语法:"
+            android:id="@+id/tv_yufa_test"
+            android:padding="10dp"
+            android:textColor="@color/hei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_yufa_test_show"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:text="其他解释:"
+            android:id="@+id/tv_yinzhengjs_test"
+            android:padding="10dp"
+            android:textColor="@color/hei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_yinzhengjs_show"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+</LinearLayout>

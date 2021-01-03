@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/hui"
+    tools:context=".xiaoceshi1.PeiDuiActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layout_radio4"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/colorAccent"
+            android:text="男孩:"
+            />
+
+    <Spinner
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/spinner"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/colorAccent"
+            android:text="女孩:"
+            />
+
+        <Spinner
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:id="@+id/spinner2"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/txt01"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/txt02"
+            />
+
+
+        <Button
+            android:onClick="btn_Peidui"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="-300dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_selector"
+            android:text="查询"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layout_radio4"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="配对指数:"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/tv_zhishu" />
+        <TextView
+            android:id="@+id/tv_zhishu_show"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="-35dp"
+            android:layout_marginLeft="110dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="幸福指数比重:"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/tv_bizhong" />
+
+        <TextView
+            android:id="@+id/tv_bizhong_show"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="-35dp"
+            android:layout_marginLeft="140dp"
+            android:layout_height="wrap_content" />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="相约指数:"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/tv_xiangyue" />
+
+
+        <TextView
+            android:id="@+id/tv_xiangyue_show"
+            android:padding="5dp"
+            android:layout_marginTop="-35dp"
+            android:layout_marginLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="地久天长指数:"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/tv_tcdj" />
+        <TextView
+            android:id="@+id/tv_tcdj_show"
+            android:padding="5dp"
+            android:layout_marginTop="-35dp"
+            android:layout_marginLeft="140dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="结果评述:"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/tv_jieguo" />
+        <TextView
+            android:id="@+id/tv_jieguo_show"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="恋爱建议:"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/tv_lianai" />
+        <TextView
+            android:id="@+id/tv_lianai_show"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="注意事项:"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/tv_zhuyi" />
+        <TextView
+            android:id="@+id/tv_zhuyi_show"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

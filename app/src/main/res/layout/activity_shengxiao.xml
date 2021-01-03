@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/hui"
+    tools:context=".xiaoceshi1.ShengxiaoActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layout_radio4"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/colorAccent"
+            android:text="男孩:"
+            />
+
+        <Spinner
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:id="@+id/spinner_shengxiao"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/colorAccent"
+            android:text="女孩:"
+            />
+
+        <Spinner
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:id="@+id/spinner2_shengxiao"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/txt01_shengxiao"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/txt02_shengxiao"
+            />
+
+
+        <Button
+            android:onClick="btn_Shengxiao"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="-300dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_selector"
+            android:text="查询"
+            />
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/layout_radio4"
+            >
+
+            <TextView
+                android:id="@+id/tv_men_show"
+                android:padding="5dp"
+                android:textSize="25sp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorAccent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="v s"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_marginTop="-55dp"
+                android:textColor="@color/colorAccent"
+                android:id="@+id/tv_zhuyi" />
+            <TextView
+                android:id="@+id/tv_women_show"
+                android:padding="5dp"
+                android:textSize="25sp"
+                android:layout_marginTop="-50dp"
+                android:layout_marginLeft="220dp"
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="情感分析:"
+                android:padding="10dp"
+                android:textColor="@color/colorAccent"
+                android:id="@+id/tv_shengxiao" />
+
+
+            <TextView
+                android:id="@+id/tv_shengxiao_show"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+</LinearLayout>

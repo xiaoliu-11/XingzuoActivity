@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShuangziActivity"
+    android:background="@drawable/shuangyu"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:alpha="0.6"
+        android:background="@drawable/layout_radio"
+        >
+
+        <Button
+            android:id="@+id/btn__baiyang_1"
+            android:layout_width="120dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_selector"
+            android:text="今日运势"
+            android:layout_marginLeft="20dp"
+            android:textSize="25sp"
+            android:onClick="btn_ShuangziTodayStart"
+            />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="120dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_selector"
+            android:text="本周运势"
+            android:layout_marginLeft="105dp"
+            android:textSize="25sp"
+            android:onClick="btn_ShuangziWeeksStart"
+            />
+    </LinearLayout>
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:background="#CC000000"-->
+    <!--        android:gravity="center"-->
+    <!--        android:textColor="#FFFFFF"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:text="这是你的文字"/>-->
+
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:alpha="0.6"
+            android:background="@drawable/layout_radio"
+            >
+
+            <TextView
+                android:text="星座好友:"
+                android:id="@+id/tv_friend_test"
+                android:padding="6dp"
+                android:textSize="22sp"
+                android:textColor="@color/hong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_friend_test_show_sz"
+                android:padding="6dp"
+                android:textColor="@color/hong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <TextView
+                android:text="幸运颜色:"
+                android:id="@+id/tv_yanse_test"
+                android:padding="6dp"
+                android:textSize="22sp"
+                android:textColor="@color/hong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/tv_yanse_test_show_sz"
+                android:padding="6dp"
+                android:textColor="@color/hong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <TextView
+                android:text="健康指数:"
+                android:id="@+id/tv_health_test"
+                android:padding="6dp"
+                android:textSize="22sp"
+                android:textColor="@color/hong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/tv_health_test_show_sz"
+                android:padding="6dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/hong"
+                android:layout_height="wrap_content" />
+
+
+
+            <TextView
+                android:text="恋爱指数:"
+                android:id="@+id/tv_love_test"
+                android:padding="6dp"
+                android:textSize="22sp"
+                android:textColor="@color/hong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/tv_love_test_show_sz"
+                android:padding="6dp"
+                android:textColor="@color/hong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <TextView
+                android:text="幸运数字:"
+                android:id="@+id/tv_number_test"
+                android:padding="6dp"
+                android:textSize="22sp"
+                android:textColor="@color/hong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/tv_number_test_show_sz"
+                android:padding="6dp"
+                android:textColor="@color/hong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+            <TextView
+                android:text="综合运势:"
+                android:id="@+id/tv_summary_test"
+                android:padding="6dp"
+                android:textSize="22sp"
+                android:textColor="@color/hong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/tv_summary_test_show_sz"
+                android:padding="6dp"
+                android:textColor="@color/hong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

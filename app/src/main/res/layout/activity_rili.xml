@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".xiaoceshi1.RiliActivity"
+    android:background="@color/text_gray"
+ >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layout_radio2"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tv_rili" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btn_xiugai"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-35dp"
+        android:layout_marginLeft="320dp"
+        android:src="@drawable/rili_button"
+        />
+
+    <Button
+        android:onClick="btn_RiliDate"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_selector"
+        android:text="查询"
+         />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/layout_radio"
+        >
+
+
+
+
+<!--    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/tv_xianshi" />-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="阴历:"
+            android:padding="10dp"
+            android:textColor="@color/hei"
+            android:id="@+id/tv_yinli" />
+        <TextView
+            android:id="@+id/tv_yinli_show"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="宜:"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/tv_yi" />
+
+        <TextView
+            android:id="@+id/tv_yi_show"
+            android:padding="5dp"
+            android:textColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="忌:"
+            android:padding="10dp"
+            android:textColor="@color/hei"
+            android:id="@+id/tv_ji" />
+
+
+        <TextView
+            android:id="@+id/tv_ji_show"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="拜祭:"
+            android:padding="10dp"
+            android:textColor="@color/hei"
+            android:id="@+id/tv_baiji" />
+        <TextView
+            android:id="@+id/tv_baiji_show"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="冲煞:"
+            android:padding="10dp"
+            android:textColor="@color/hei"
+            android:id="@+id/tv_chongsha" />
+        <TextView
+            android:id="@+id/tv_chongsha_show"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    </LinearLayout>

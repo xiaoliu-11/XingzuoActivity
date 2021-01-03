@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_gray"
+    android:orientation="vertical"
+    tools:context=".xiaoceshi1.TianQiActivity">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layout_radio2"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:paddingTop="7dp"
+        android:text="达州"
+        android:paddingLeft="100dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/name"
+
+        />
+  <!--  <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更换城市"
+        android:id="@+id/btn"/>-->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/city"
+            android:paddingLeft="60dp"
+            android:id="@+id/btn"
+            />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:onClick="btn_TianqiStart"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_selector"
+        android:text="查询"
+        />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/layout_radio"
+        >
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="温度:"
+            android:padding="5dp"
+            android:textColor="@color/hei"
+            android:id="@+id/tv_wendu" />
+        <TextView
+            android:id="@+id/tv_wendu_show"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="天气情况:"
+            android:padding="5dp"
+            android:textColor="@color/hei"
+            android:id="@+id/tv_tianqi" />
+
+        <TextView
+            android:id="@+id/tv_tianqi_show"
+            android:padding="5dp"
+            android:textColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="湿度:"
+            android:padding="5dp"
+            android:textColor="@color/hei"
+            android:id="@+id/tv_shidu" />
+
+
+        <TextView
+            android:id="@+id/tv_shidu_show"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="风向:"
+            android:padding="5dp"
+            android:textColor="@color/hei"
+            android:id="@+id/tv_direct" />
+        <TextView
+            android:id="@+id/tv_direct_show"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="风力:"
+            android:padding="5dp"
+            android:textColor="@color/hei"
+            android:id="@+id/tv_power" />
+        <TextView
+            android:id="@+id/tv_power_show"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="空气质量指数:"
+            android:padding="5dp"
+            android:textColor="@color/hei"
+            android:id="@+id/tv_aqi" />
+        <TextView
+            android:id="@+id/tv_aqi_show"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

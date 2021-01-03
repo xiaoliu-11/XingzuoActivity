@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/hui"
+    tools:context=".GerenziliaoActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="560dp"
+        android:background="@drawable/layout_radio4"
+        >
+
+
+        <LinearLayout
+            android:background="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+
+            <!---->
+
+            <com.example.xingzuoactivity.utils.nav_bar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chakanxiangqing"
+                my:icon="@mipmap/gerenxiangqing"
+                my:hint="我的资料"
+                android:background="@drawable/selector"
+                >
+            </com.example.xingzuoactivity.utils.nav_bar>
+
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="1dp"
+                />
+
+            <com.example.xingzuoactivity.utils.nav_bar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gerenyonghuming"
+                my:icon="@mipmap/gerennichen"
+                android:layout_marginTop="10dp"
+                my:hint="用户名"
+                my:textzhi="@string/yonghuming"
+                android:background="@drawable/selector"
+                >
+            </com.example.xingzuoactivity.utils.nav_bar>
+
+            <com.example.xingzuoactivity.utils.nav_bar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gerenxingbie"
+                my:icon="@mipmap/sex"
+                my:hint="性别"
+                my:textzhi="@string/sex"
+                android:background="@drawable/selector"
+                >
+
+            </com.example.xingzuoactivity.utils.nav_bar>
+
+            <com.example.xingzuoactivity.utils.nav_bar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gerenxingzuo"
+                my:icon="@mipmap/gerenxingzuo"
+                my:hint="星座"
+                my:textzhi="@string/xingzuo"
+                android:background="@drawable/selector"
+                >
+            </com.example.xingzuoactivity.utils.nav_bar>
+
+            <com.example.xingzuoactivity.utils.nav_bar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gerenshengxiao"
+                my:icon="@mipmap/gerenshengxiao"
+                my:hint="生肖"
+                my:textzhi="@string/shengxiao"
+                android:background="@drawable/selector"
+                >
+            </com.example.xingzuoactivity.utils.nav_bar>
+
+            <com.example.xingzuoactivity.utils.nav_bar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gerensehgnri"
+                my:icon="@mipmap/gerenshengri"
+                my:hint="生日"
+                my:textzhi="@string/shengri"
+                android:background="@drawable/selector"
+                >
+            </com.example.xingzuoactivity.utils.nav_bar>
+
+
+            <com.example.xingzuoactivity.utils.nav_bar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/geren_qq"
+                my:icon="@mipmap/gerenqq"
+                my:hint="QQ"
+                my:textzhi="@string/qq"
+                android:background="@drawable/selector"
+                >
+            </com.example.xingzuoactivity.utils.nav_bar>
+
+
+
+            <com.example.xingzuoactivity.utils.nav_bar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/geren_xiugaimima"
+                my:icon="@mipmap/gerenxiugaimima"
+                my:hint="修改密码"
+                android:background="@drawable/selector"
+                >
+            </com.example.xingzuoactivity.utils.nav_bar>
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            android:text="退出登录"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/geren_tuichu"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fm01id"></FrameLayout>
+
+    </LinearLayout>

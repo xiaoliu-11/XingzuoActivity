@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shuangzizuo"
+    tools:context=".imageactivity.ImgEightActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="140dp"
+        android:orientation="vertical"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="330dp"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/iamge_bizhieight"
+            android:src="@mipmap/shouji"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下载"
+            android:textSize="18sp"
+            android:id="@+id/text_bizhi"
+            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
